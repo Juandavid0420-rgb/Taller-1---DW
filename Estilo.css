@@ -90,4 +90,16 @@ img {
     float: left;
     width: 200px;
     margin: 0%;
+    border: 1px solid black; /*borde negro delgado*/
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 3); /* sombra*/
+}
+
+.section ul il {
+    color: black; /* Texto en negro*/
+}
+
+/*Estilo para las listas numeradas en la cornologia */
+.section ol il::marker{
+
+    color: blue; /* Color de numero diferente */
 }
