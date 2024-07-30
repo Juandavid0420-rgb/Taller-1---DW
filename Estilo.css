@@ -122,3 +122,29 @@ img {
     border-radius: 10px;
     border: 1px solid #ccffcc;
 }
+
+.section {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #f0f0f0, #fafafa);
+}
+
+.section h2 {
+    color: #333;
+}
+
+/* Estilos de los enlaces internos */
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
